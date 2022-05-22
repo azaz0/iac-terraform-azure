@@ -43,24 +43,24 @@ resource "azurerm_function_app_function" "student_75941_resource" {
   name            = var.student_75941_function_app_function.name
   function_app_id = var.student_75941_resource_group_id
   language        = var.student_75941_function_app_function.language
-  test_data       = var.student_75941_function_app_function.test_data
-  #  config_json = jsonencode({
-  #    "bindings" = [
-  #      {
-  #        "authLevel" = "function"
-  #        "direction" = "in"
-  #        "methods" = [
-  #          "get",
-  #          "post",
-  #        ]
-  #        "name" = "req"
-  #        "type" = "httpTrigger"
-  #      },
-  #      {
-  #        "direction" = "out"
-  #        "name"      = "$return"
-  #        "type"      = "http"
-  #      },
-  #    ]
-  #  })
+  /*test_data       = var.student_75941_function_app_function.test_data
+    config_json = jsonencode({
+      "bindings" = [
+        {
+          "authLevel" = "function"
+          "direction" = "in"
+          "methods" = [
+            "get",
+            "post",
+          ]
+          "name" = "req"
+          "type" = "httpTrigger"
+        },
+        {
+          "direction" = "out"
+          "name"      = "$return"
+          "type"      = "http"
+        },
+      ]
+    })*/
 }

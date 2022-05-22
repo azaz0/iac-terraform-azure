@@ -92,9 +92,9 @@ variable "student_75941_function_app_function" {
       name            = "student_75941_resource-function-app-function"
       function_app_id = var.student_75941_resource_group_id
       language        = "Python"
-      test_data       = jsonencode({
+/*      test_data       = jsonencode({
         "name" = "Azure"
-      })
+      })*/
     }
   ]
 }
