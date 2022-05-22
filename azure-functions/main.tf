@@ -12,7 +12,7 @@ resource "azurerm_storage_account" "student_75941_resource" {
   location                 = var.student_75941_resource_group_location
   account_tier             = var.student_75941_storage_account.account_tier
   account_replication_type = var.student_75941_storage_account.replication_type
-  access_key               = var.student_75941_storage_account.access_key
+#  access_key               = var.student_75941_storage_account.access_key
 }
 
 resource "azurerm_service_plan" "student_75941_resource" {
